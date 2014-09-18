@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Omniauth::Fake::VERSION
   spec.authors       = ["Manuel Hutter"]
   spec.email         = ["gem@mhutter.net"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{A testing strategy for OmniAuth.}
+  spec.description   = %q{A testing strategy for OmniAuth. Define your Identities in `~/.omniauth-fake`.}
   spec.homepage      = "https://github.com/mhutter/omniauth-fake"
   spec.license       = "MIT"
 
