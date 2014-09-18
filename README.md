@@ -1,11 +1,5 @@
 # Omniauth Fake
 
-**! ! !**
-
-**Under development, this is what it WILL work like!**
-
-**! ! !**
-
 An [OmniAuth](https://github.com/intridea/omniauth)-Strategy for development and/or testing.
 
 The idea behind this strategy is that you define one or more identities in a local dotfile (eg. `~/.omniauth-fake` or `/path/to/app/.omniauth-fake`). During the OmniAuth authentication process, you can select one of your identities to use.
