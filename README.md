@@ -59,7 +59,7 @@ user1:
     token: my_app_token
     secret: super-secret-token
   raw_info:
-    sAMAccountName: user1
+    sAMAccountName: abcuser1
     attribute_x: Value
 user2:
   name: Jane Doe
@@ -90,7 +90,7 @@ The resulting `env['omniauth.auth']`-Hash for `user1`:
         :token => "my_app_token",
         :secret => "super-secret-token"
       },
-      :sAMAccountName => "user1",
+      :sAMAccountName => "abcuser1",
       :attribute_x => "Value"
     }
   }

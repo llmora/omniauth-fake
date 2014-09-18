@@ -1,0 +1,11 @@
+user1:
+  name: John Doe
+  email: user1@example.com
+  credentials:
+    token: my_app_token
+    secret: super-secret-token
+  raw_info:
+    sAMAccountName: abcuser1
+    attribute_x: Value
+user2:
+  name: Jane Doe
