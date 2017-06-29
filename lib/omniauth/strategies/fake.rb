@@ -12,7 +12,7 @@ module OmniAuth
         load_identities
 
         f = OmniAuth::Form.new(:title => "Identity Selection", :url => callback_path, )
-        f.html %Q{\n<select id="identity" name="identity"/>}
+        f.html %Q{\n<select id="uid" name="uid"/>}
         @@identities.each do |uid,data|
           f.html %Q{\n<option value="#{uid}">#{uid} - #{data['info']['name']}</option>}
         end
