@@ -22,6 +22,7 @@ module OmniAuth
       end
 
       def callback_phase
+        pp request
         return fail!(:missing_credentials) if request['uid'].nil? || request['uid'].empty?
         return fail!(:invalid_credentials) if @@identities[request['uid']].nil?
         @identity = @@identities[request['uid']]
